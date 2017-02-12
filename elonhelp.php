@@ -2,7 +2,7 @@
 $data = array(
   "response_type" => "ephemeral",
   "channel" => $_POST['channel_id'],
-  "text" => "Jak używać `/elon`?\n`/elon :sadelon: [@name]` – odejmuje 2 punkty reputacji.\n`/elon :neutralelon: [@name]` – dodaje 1 punkt reputacji.\n`/elon :happyelon: [@name]` – dodaje 2 punkty reputacji.\n`/elon show [@name|@everyone]` – pokazuje reputację.",
+  "text" => "*Jak używać `/elon`?*\n`/elon [:happyelon:|:neutralelon:|:sadelon:] [@name]` – tworzy nową ankietę.\n`/elon vote [@name] [:+1:|:thumbsup:|:-1:|:thumbsdown:]` – głosowanie. `:+1:|:thumbsup:` = za, `:-1:|:thumbsdown:` – przeciw.\n\n`/elon show [@name|@everyone]` – pokazuje reputację.",
   "mrkdwn" => true,
 );
 
